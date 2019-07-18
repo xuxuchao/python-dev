@@ -431,7 +431,7 @@ def module_list(request):
 
 ```
 
-### 修改project_edit视图
+### 修改module_edit视图
 ```
 @csrf_exempt
 def module_edit(request):
@@ -468,7 +468,7 @@ def module_edit(request):
 
 点击编辑测试
 
-### 修改project_list 添加删除功能
+### 修改module_list 添加删除功能
 找到删除button 修改为
 
 ```
@@ -539,7 +539,7 @@ def module_search_ajax(request):
     path('module/search/ajax', views.module_search_ajax, name='module_search_ajax'),
 ```
 
-修改project_list.html模板
+修改module_list.html模板
 
 ```
 <div class="am-btn-toolbars am-btn-toolbar am-kg am-cf">
